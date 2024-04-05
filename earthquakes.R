@@ -47,5 +47,5 @@ map <- leaflet(earthquakes_sf) %>%
 
 map
 
-mapview::mapshot(map, "map/nyc-region-earthquakes.html")
+mapview::mapshot(map, "docs/nyc-region-earthquakes.html")
 
